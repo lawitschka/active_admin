@@ -158,7 +158,6 @@ Gem::Specification.new do |s|
     "lib/active_admin/view_helpers/method_or_proc_helper.rb",
     "lib/active_admin/view_helpers/renderer_helper.rb",
     "lib/active_admin/view_helpers/sidebar_helper.rb",
-    "lib/active_admin/view_helpers/status_tag_helper.rb",
     "lib/active_admin/view_helpers/table_helper.rb",
     "lib/active_admin/view_helpers/title_helper.rb",
     "lib/active_admin/view_helpers/view_factory_helper.rb",

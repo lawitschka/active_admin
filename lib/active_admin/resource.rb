@@ -132,16 +132,21 @@ module ActiveAdmin
       @menu_options[:parent]
     end
 
+    # Returns the parent menu's priority
+    def parent_menu_item_priority
+      @menu_options[:parent_priority] || 10
+    end
+
     # Returns the name to be displayed in the menu for this resource
     def menu_item_name
       @menu_options[:label] || plural_resource_name
     end
-    
+
     # Returns the items priority for altering the default sort order
     def menu_item_priority
       @menu_options[:priority] || 10
     end
-    
+
     # Returns a proc for deciding whether to display the menu item or not in the view
     def menu_item_display_if
       @menu_options[:if] || proc { true }
